@@ -15,7 +15,7 @@ calculate_samples_per_symbol(clock_period, time_increment) — Divides the symbo
 
 4. Differential Signal Conversion
 Function: compute_differential_signal(ch1, ch2)
-Computes the difference between CH1 and CH2 to create a differential waveform, which is typical in high-speed signaling like PAM4.
+Computes the difference between CH1 and CH2 to create a differential waveform
 
 4. Symbol Block Segmentation
 Function: divide_into_blocks(voltages, samples_per_symbol)
